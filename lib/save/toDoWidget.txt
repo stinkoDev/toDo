@@ -1,0 +1,41 @@
+                            // FilledButton.icon(
+                            //   icon: Icon(
+                            //     widget.completion ? Icons.close : Icons.check,
+                            //   ),
+                            //   label: Text(
+                            //     widget.completion
+                            //         ? 'Mark not done'
+                            //         : 'Mark done',
+                            //   ),
+                            //   style: FilledButton.styleFrom(
+                            //     backgroundColor: Theme.of(
+                            //       context,
+                            //     ).colorScheme.primary,
+                            //     minimumSize: Size(double.infinity, 50),
+                            //   ),
+                            //   onPressed: () {},
+                            // ),
+                            // SizedBox(height: 12),
+                            // FilledButton.icon(
+                            //   icon: Icon(Icons.edit),
+                            //   label: Text('Edit'),
+                            //   style: FilledButton.styleFrom(
+                            //     backgroundColor: Theme.of(
+                            //       context,
+                            //     ).colorScheme.tertiary,
+                            //     minimumSize: Size(double.infinity, 50),
+                            //   ),
+                            //   onPressed: () {},
+                            // ),
+                            // SizedBox(height: 12),
+                            // FilledButton.icon(
+                            //   icon: Icon(Icons.delete),
+                            //   label: Text('Delete'),
+                            //   style: FilledButton.styleFrom(
+                            //     backgroundColor: Theme.of(
+                            //       context,
+                            //     ).colorScheme.error,
+                            //     minimumSize: Size(double.infinity, 50),
+                            //   ),
+                            //   onPressed: () {},
+                            // ),

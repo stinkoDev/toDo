@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:to_do/services/to_do_service.dart';
+import 'package:to_do/models/to_do_item.dart';
 
 class ToDoWidget extends StatefulWidget {
   final String id;
@@ -7,6 +9,7 @@ class ToDoWidget extends StatefulWidget {
   final DateTime createdAt;
   final bool completion;
   final ValueChanged<bool> onToggle;
+  final VoidCallback onDelete;
 
   const ToDoWidget({
     super.key,
@@ -15,6 +18,7 @@ class ToDoWidget extends StatefulWidget {
     required this.createdAt,
     required this.completion,
     required this.onToggle,
+    required this.onDelete,
   });
 
   @override
@@ -148,50 +152,7 @@ class _ToDoWidgetState extends State<ToDoWidget> {
                           ),
                         ),
                         child: Column(
-                          children: [
-                            _SegmentButton(widget: widget),
-                            // FilledButton.icon(
-                            //   icon: Icon(
-                            //     widget.completion ? Icons.close : Icons.check,
-                            //   ),
-                            //   label: Text(
-                            //     widget.completion
-                            //         ? 'Mark not done'
-                            //         : 'Mark done',
-                            //   ),
-                            //   style: FilledButton.styleFrom(
-                            //     backgroundColor: Theme.of(
-                            //       context,
-                            //     ).colorScheme.primary,
-                            //     minimumSize: Size(double.infinity, 50),
-                            //   ),
-                            //   onPressed: () {},
-                            // ),
-                            // SizedBox(height: 12),
-                            // FilledButton.icon(
-                            //   icon: Icon(Icons.edit),
-                            //   label: Text('Edit'),
-                            //   style: FilledButton.styleFrom(
-                            //     backgroundColor: Theme.of(
-                            //       context,
-                            //     ).colorScheme.tertiary,
-                            //     minimumSize: Size(double.infinity, 50),
-                            //   ),
-                            //   onPressed: () {},
-                            // ),
-                            // SizedBox(height: 12),
-                            // FilledButton.icon(
-                            //   icon: Icon(Icons.delete),
-                            //   label: Text('Delete'),
-                            //   style: FilledButton.styleFrom(
-                            //     backgroundColor: Theme.of(
-                            //       context,
-                            //     ).colorScheme.error,
-                            //     minimumSize: Size(double.infinity, 50),
-                            //   ),
-                            //   onPressed: () {},
-                            // ),
-                          ],
+                          children: [_SegmentButton(widget: widget)],
                         ),
                       ),
                     ],
@@ -206,17 +167,49 @@ class _ToDoWidgetState extends State<ToDoWidget> {
   }
 }
 
-class _SegmentButton extends StatelessWidget {
-  final widget;
+class _SegmentButton extends StatefulWidget {
+  final ToDoWidget widget;
   const _SegmentButton({required this.widget});
+
+  @override
+  State<_SegmentButton> createState() => _SegmentButtonState();
+}
+
+class _SegmentButtonState extends State<_SegmentButton> {
+  bool _isDeleted = false;
+  bool _localCompletion = false;
+  ToDoItem? _deletedTodo;
+
+  @override
+  void initState() {
+    super.initState();
+    _localCompletion = widget.widget.completion;
+  }
+
+  Future<void> _handleDelete() async {
+    if (_isDeleted) {
+      await TodoService.restore(_deletedTodo!);
+      setState(() => _isDeleted = false);
+    } else {
+      _deletedTodo = await TodoService.softDelete(widget.widget.id);
+      setState(() => _isDeleted = true);
+    }
+  }
+
+  Future<void> _handleToggle() async {
+    final newCompletion = !_localCompletion;
+    await TodoService.toggle(widget.widget.id, newCompletion);
+    setState(() => _localCompletion = newCompletion); // Update local
+  }
+
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
         Expanded(
           child: FilledButton.icon(
-            icon: Icon(Icons.delete),
-            label: Text('Delete'),
+            icon: Icon(_isDeleted ? Icons.undo_outlined : Icons.delete),
+            label: Text(_isDeleted ? 'Undo' : 'Delete'),
             style: FilledButton.styleFrom(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.horizontal(
@@ -224,7 +217,7 @@ class _SegmentButton extends StatelessWidget {
                 ),
               ),
             ),
-            onPressed: () {},
+            onPressed: () => _handleDelete(),
           ),
         ),
         Expanded(
@@ -239,8 +232,8 @@ class _SegmentButton extends StatelessWidget {
         ),
         Expanded(
           child: FilledButton.icon(
-            icon: Icon(widget.completion ? Icons.close : Icons.check),
-            label: Text(widget.completion ? 'Mark not done' : 'Mark done'),
+            icon: Icon(_localCompletion ? Icons.close : Icons.check),
+            label: Text('done'),
             style: FilledButton.styleFrom(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.horizontal(
@@ -248,7 +241,7 @@ class _SegmentButton extends StatelessWidget {
                 ),
               ),
             ),
-            onPressed: () {},
+            onPressed: () => _handleToggle(),
           ),
         ),
       ],

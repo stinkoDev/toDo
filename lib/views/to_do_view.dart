@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:to_do/widgets/custom_divider.dart';
 import 'package:to_do/widgets/to_do_dropdown.dart';
 import 'package:to_do/widgets/to_do_widget.dart';
@@ -20,6 +21,8 @@ class _ToDoViewState extends State<ToDoView> {
   late String dropDownSortSelected;
   List<ToDoItem> todos = [];
 
+  Box<ToDoItem>? get _todosBox => TodoService.box;
+
   @override
   void initState() {
     super.initState();
@@ -37,6 +40,19 @@ class _ToDoViewState extends State<ToDoView> {
     dropDownSortSelected = dropDownSortList.first;
 
     todos = TodoService.getAll();
+    _todosBox?.listenable().addListener(_refreshTodos);
+  }
+
+  void _refreshTodos() {
+    setState(() {
+      todos = TodoService.getAll();
+    });
+  }
+
+  @override
+  void dispose() {
+    _todosBox?.listenable().removeListener(_refreshTodos);
+    super.dispose();
   }
 
   void toggleCompletion(String id, bool newValue) async {
@@ -94,6 +110,7 @@ class _ToDoViewState extends State<ToDoView> {
               onToggle: (bool value) {
                 toggleCompletion(todo.id, value);
               },
+              onDelete: () => TodoService.softDelete(todo.id),
             );
           }),
           CustomDivider(data: 'Completed'),
@@ -106,6 +123,7 @@ class _ToDoViewState extends State<ToDoView> {
               onToggle: (bool value) {
                 toggleCompletion(todo.id, value);
               },
+              onDelete: () => TodoService.softDelete(todo.id),
             );
           }),
         ],

@@ -2,22 +2,24 @@ import 'package:flutter/material.dart';
 
 class CustomTextfield extends StatefulWidget {
   final String? hint;
-  const CustomTextfield({super.key, this.hint});
+  final TextEditingController? controller;
+
+  const CustomTextfield({super.key, this.hint, this.controller});
   @override
   State<CustomTextfield> createState() => _CustomTextfieldState();
 }
 
 class _CustomTextfieldState extends State<CustomTextfield> {
-  late TextEditingController _textFieldController;
+  late final TextEditingController _controller;
   @override
   void initState() {
     super.initState();
-    _textFieldController = TextEditingController();
+    _controller = widget.controller ?? TextEditingController();
   }
 
   @override
   void dispose() {
-    _textFieldController.dispose();
+    if (widget.controller == null) _controller.dispose();
     super.dispose();
   }
 
@@ -26,7 +28,7 @@ class _CustomTextfieldState extends State<CustomTextfield> {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: TextField(
-        controller: _textFieldController,
+        controller: _controller,
         decoration: InputDecoration(
           filled: true,
           hintText: widget.hint ?? '',

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:to_do/app/app_theme.dart';
+import 'package:to_do/services/to_do_service.dart';
 import 'package:to_do/widgets/custom_textfield.dart';
 
 class CreateFloatingActionButton extends StatefulWidget {
@@ -72,7 +73,7 @@ class _AlertPopupState extends State<_AlertPopup> {
 
   String _selectedPriority = 'normal';
   bool _addDescription = false;
-  bool _addDueDate = true;
+  bool _addDueDate = false;
 
   @override
   Widget build(BuildContext context) {
@@ -126,7 +127,10 @@ class _AlertPopupState extends State<_AlertPopup> {
                 });
               },
             ),
-            CustomTextfield(hint: 'title'),
+            CustomTextfield(
+              hint: 'title',
+              controller: _titleTextFieldController,
+            ),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Row(
@@ -143,7 +147,10 @@ class _AlertPopupState extends State<_AlertPopup> {
               ),
             ),
             _addDescription
-                ? CustomTextfield(hint: 'description')
+                ? CustomTextfield(
+                    hint: 'description',
+                    controller: _descriptionTextFieldController,
+                  )
                 : Container(),
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -170,7 +177,17 @@ class _AlertPopupState extends State<_AlertPopup> {
           child: Text('Cancel'),
         ),
         TextButton(
-          onPressed: () => Navigator.pop(context),
+          onPressed: () {
+            if (_titleTextFieldController.text.trim().isEmpty) return;
+            TodoService.create(
+              title: _titleTextFieldController.text.trim(),
+              description: _addDescription
+                  ? _descriptionTextFieldController.text.trim()
+                  : null,
+              priority: _selectedPriority,
+            );
+            Navigator.pop(context);
+          },
           child: Text('Create'),
         ),
       ],
@@ -216,9 +233,9 @@ class _DateEntryState extends State<_DateEntry> {
   }
 }
 
-class _PopUp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Text('test');
-  }
-}
+// class _PopUp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Text('test');
+//   }
+// }

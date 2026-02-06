@@ -3,6 +3,7 @@ import '../models/to_do_item.dart';
 
 class TodoService {
   static Box<ToDoItem>? _todosBox;
+  static Box<ToDoItem>? get box => _todosBox;
 
   static Future<void> init() async {
     await Hive.initFlutter();
@@ -14,6 +15,34 @@ class TodoService {
 
   static List<ToDoItem> getAll() {
     return _todosBox?.values.toList() ?? [];
+  }
+
+  static Future<void> create({
+    required String title,
+    String? description,
+    required String priority,
+  }) async {
+    final newTodo = ToDoItem(
+      title: title,
+      priority: priority,
+      completion: false,
+    );
+    await _todosBox?.put(newTodo.id, newTodo);
+  }
+
+  static Future<ToDoItem?> softDelete(String id) async {
+    final todo = _todosBox?.get(id);
+    if (todo != null) {
+      await _todosBox?.delete(id);
+      print('✅ Deleted todo $id');
+      return todo;
+    }
+    return null;
+  }
+
+  static Future<void> restore(ToDoItem todo) async {
+    await _todosBox?.put(todo.id, todo);
+    print('↺ Restored ${todo.title}');
   }
 
   static Future<void> toggle(String id, bool newValue) async {
