@@ -1,0 +1,825 @@
+[2026-02-03 11:51:41.753] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-03 11:51:41.754] [info] Discovered appearance 'dark'
+[2026-02-03 11:51:41.768] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39169): Gtk-WARNING **: 11:51:41.769: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-03 11:51:41.772] [info] Hyprland IPC starting
+[2026-02-03 11:51:41.773] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-03 11:51:41.773] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-03 11:51:41.773] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-03 11:51:41.777] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:51:41.779] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:51:41.807] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 11:51:41.862] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-03 11:51:42.057] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-03 11:51:42.093] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-03 11:51:42.093] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-03 11:51:42.093] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-03 11:51:42.097] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:51:42.098] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:51:42.135] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 11:51:42.197] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-03 11:51:42.444] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-03 11:51:42.704] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-03 11:51:42.704] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 11:51:42.704] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-03 11:51:42.704] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-03 11:52:58.713] [info] Reloading...
+[2026-02-03 11:52:58.776] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-03 11:52:58.791] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39169): Gtk-WARNING **: 11:52:58.791: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-03 11:52:58.799] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-03 11:52:58.799] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-03 11:52:58.799] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-03 11:52:58.803] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:52:58.805] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:52:58.826] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 11:52:58.877] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-03 11:52:59.235] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-03 11:52:59.273] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-03 11:52:59.273] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-03 11:52:59.273] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-03 11:52:59.277] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:52:59.279] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:52:59.305] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 11:52:59.360] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-03 11:52:59.629] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-03 11:52:59.892] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-03 11:52:59.892] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 11:52:59.892] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-03 11:52:59.892] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-03 11:52:59.919] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-03 11:52:59.921] [info] Discovered appearance 'dark'
+[2026-02-03 11:52:59.935] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 11:52:59.936: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-03 11:52:59.938] [info] Hyprland IPC starting
+[2026-02-03 11:52:59.939] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-03 11:52:59.939] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-03 11:52:59.939] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-03 11:52:59.943] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:52:59.945] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:52:59.980] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 11:53:00.030] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-03 11:53:00.301] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-03 11:53:00.329] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-03 11:53:00.329] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-03 11:53:00.329] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-03 11:53:00.333] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:00.334] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:00.363] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 11:53:00.414] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-03 11:53:00.723] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-03 11:53:00.991] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-03 11:53:00.991] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 11:53:00.991] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-03 11:53:00.991] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-03 11:53:03.055] [info] Reloading...
+[2026-02-03 11:53:03.055] [info] Reloading...
+[2026-02-03 11:53:03.113] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-03 11:53:03.120] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-03 11:53:03.127] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 11:53:03.128: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-03 11:53:03.135] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-03 11:53:03.136] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-03 11:53:03.136] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-03 11:53:03.138] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39169): Gtk-WARNING **: 11:53:03.138: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-03 11:53:03.139] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:03.141] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:03.160] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 11:53:03.228] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-03 11:53:03.539] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-03 11:53:03.583] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-03 11:53:03.583] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-03 11:53:03.583] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-03 11:53:03.587] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:03.588] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:03.610] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 11:53:03.672] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-03 11:53:03.973] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-03 11:53:04.019] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-03 11:53:04.019] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-03 11:53:04.019] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-03 11:53:04.023] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:04.025] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:04.050] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 11:53:04.098] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-03 11:53:04.229] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-03 11:53:04.229] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 11:53:04.229] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-03 11:53:04.229] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-03 11:53:04.396] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-03 11:53:04.432] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-03 11:53:04.432] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-03 11:53:04.432] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-03 11:53:04.436] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:04.437] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:04.456] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 11:53:04.502] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-03 11:53:04.791] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-03 11:53:05.045] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-03 11:53:05.045] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 11:53:05.046] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-03 11:53:05.046] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-03 11:53:08.900] [info] Reloading...
+[2026-02-03 11:53:08.900] [info] Reloading...
+[2026-02-03 11:53:08.969] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-03 11:53:08.969] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-03 11:53:08.984] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 11:53:08.984: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-03 11:53:08.985] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39169): Gtk-WARNING **: 11:53:08.985: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-03 11:53:08.996] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-03 11:53:08.996] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-03 11:53:08.996] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-03 11:53:09.001] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:09.003] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:09.020] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 11:53:09.074] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-03 11:53:09.426] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-03 11:53:09.463] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-03 11:53:09.463] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-03 11:53:09.464] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-03 11:53:09.468] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:09.469] [error] media stopped unexpectedly, is it endless?
+[2026-02-03 11:53:09.494] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 11:53:09.555] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-03 11:53:09.940] [info] Found device Logitech G305 at '/dev/input/event2'
+**
+GLib-GIO:ERROR:../glib/gio/gapplicationimpl-dbus.c:851:g_application_impl_command_line: assertion failed: (object_id != 0)
+Bail out! GLib-GIO:ERROR:../glib/gio/gapplicationimpl-dbus.c:851:g_application_impl_command_line: assertion failed: (object_id != 0)
+[2026-02-03 11:53:10.196] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-03 11:53:10.196] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 11:53:10.196] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-03 11:53:10.196] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-03 12:12:08.719] [info] Keyboard /dev/input/event11 has been removed.
+[2026-02-03 12:12:08.719] [info] Keyboard /dev/input/event11 has been removed.
+[2026-02-03 12:14:17.624] [info] Bar configured (width: 1080, height: 32) for output: HDMI-A-1
+[2026-02-03 12:14:17.637] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-03 12:14:17.637] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-03 13:10:54.219] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 13:10:54.219] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 13:12:30.633] [info] Keyboard /dev/input/event11 has been removed.
+[2026-02-03 13:12:30.633] [info] Keyboard /dev/input/event11 has been removed.
+[2026-02-03 13:12:49.157] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 13:12:49.157] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-03 13:28:31.293] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-03 13:28:31.298] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-03 13:28:31.298] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 14:32:46.077] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-03 14:32:46.083] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-03 14:32:46.083] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 14:32:46.701] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-03 14:32:46.709] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-03 14:32:46.709] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 14:32:48.294] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-03 14:32:48.298] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-03 14:32:48.298] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 14:32:49.133] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-03 14:32:49.138] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-03 14:32:49.138] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 14:44:57.175] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-03 14:44:57.181] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-03 14:44:57.181] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 14:46:44.131] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-03 14:46:44.136] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-03 14:46:44.136] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 14:47:41.211] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-03 14:47:41.218] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-03 14:47:41.218] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 14:47:43.413] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-03 14:47:43.420] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-03 14:47:43.420] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 14:47:46.753] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-03 14:47:46.760] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-03 14:47:46.760] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-03 14:48:17.092] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-03 14:48:17.099] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-03 14:48:17.099] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:09:26.919] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:09:26.925] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:09:26.925] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:09:26.926] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:09:34.853] [info] Reloading...
+[2026-02-04 09:09:34.917] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:09:34.934] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:09:34.934: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:09:34.942] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:09:34.942] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:09:34.942] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:09:34.947] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:09:34.950] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:09:34.984] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:09:35.052] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:09:35.354] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:09:35.386] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:09:35.386] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:09:35.386] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:09:35.390] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:09:35.392] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:09:35.433] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:09:35.477] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:09:35.740] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:09:36.010] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:09:36.010] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:09:36.010] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:09:36.010] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:09:38.529] [info] Reloading...
+[2026-02-04 09:09:38.578] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:09:38.594] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:09:38.594: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:09:38.601] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:09:38.601] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:09:38.601] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:09:38.606] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:09:38.608] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:09:38.639] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:09:38.689] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:09:38.938] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:09:38.967] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:09:38.968] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:09:38.968] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:09:38.972] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:09:38.973] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:09:39.024] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:09:39.075] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:09:39.343] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:09:39.603] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:09:39.603] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:09:39.603] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:09:39.603] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:10:09.614] [info] Reloading...
+[2026-02-04 09:10:09.679] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:10:09.694] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:10:09.695: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:10:09.702] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:10:09.702] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:10:09.702] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:10:09.707] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:09.709] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:09.743] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:10:09.807] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:10:10.100] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:10:10.136] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:10:10.136] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:10:10.136] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:10:10.141] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:10.142] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:10.186] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:10:10.247] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:10:10.485] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:10:10.745] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:10:10.745] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:10:10.745] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:10:10.745] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:10:11.973] [info] Reloading...
+[2026-02-04 09:10:12.035] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:10:12.050] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:10:12.050: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:10:12.060] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:10:12.060] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:10:12.060] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:10:12.065] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:12.067] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:12.104] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:10:12.149] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:10:12.445] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:10:12.484] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:10:12.484] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:10:12.484] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:10:12.489] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:12.491] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:12.522] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:10:12.580] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:10:12.870] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:10:13.123] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:10:13.123] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:10:13.123] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:10:13.123] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:10:18.420] [info] Reloading...
+[2026-02-04 09:10:18.495] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:10:18.511] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:10:18.511: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:10:18.521] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:10:18.521] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:10:18.521] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:10:18.526] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:18.528] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:18.560] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:10:18.621] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:10:18.885] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:10:18.913] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:10:18.914] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:10:18.914] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:10:18.918] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:18.920] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:18.950] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:10:18.988] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:10:19.263] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:10:19.520] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:10:19.520] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:10:19.520] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:10:19.520] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:10:43.774] [info] Reloading...
+[2026-02-04 09:10:43.848] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:10:43.864] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:10:43.864: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:10:43.870] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:10:43.870] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:10:43.870] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:10:43.875] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:43.877] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:43.914] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:10:43.954] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:10:44.259] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:10:44.286] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:10:44.286] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:10:44.286] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:10:44.291] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:44.292] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:10:44.322] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:10:44.366] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:10:44.602] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:10:44.858] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:10:44.858] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:10:44.858] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:10:44.858] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:19:44.362] [info] Reloading...
+[2026-02-04 09:19:44.424] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:19:44.440] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:19:44.440: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:19:44.448] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:19:44.448] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:19:44.448] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:19:44.454] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:19:44.456] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:19:44.480] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:19:44.531] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:19:44.769] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:19:44.803] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:19:44.803] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:19:44.803] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:19:44.808] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:19:44.810] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:19:44.849] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:19:44.896] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:19:45.144] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:19:45.409] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:19:45.409] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:19:45.409] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:19:45.409] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:20:10.102] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-04 09:20:10.109] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:20:10.109] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:22:40.435] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:22:40.445] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:22:40.445] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:22:40.446] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:22:57.885] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:22:57.896] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:22:57.896] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:22:57.897] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:24:27.766] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:24:27.776] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:24:27.776] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:24:27.776] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:24:45.799] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:24:45.810] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:24:45.810] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:24:45.810] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:25:13.232] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:25:13.240] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:25:13.240] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:25:13.240] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:25:16.747] [info] Reloading...
+[2026-02-04 09:25:16.814] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:25:16.830] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:25:16.830: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:25:16.839] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:25:16.839] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:25:16.839] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:25:16.844] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:25:16.846] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:25:16.872] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:25:16.920] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:25:17.190] [info] Found device Logitech G305 at '/dev/input/event2'
+libinput error: event11 - stinkoDev rewired: client bug: event processing lagging behind by 156ms, your system is too slow
+[2026-02-04 09:25:17.221] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:25:17.221] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:25:17.221] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:25:17.226] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:25:17.227] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:25:17.261] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:25:17.318] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:25:17.591] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:25:17.847] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:25:17.847] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:25:17.847] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:25:17.847] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:25:27.864] [info] Reloading...
+[2026-02-04 09:25:27.933] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:25:27.949] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:25:27.949: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:25:27.958] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:25:27.958] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:25:27.958] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:25:27.964] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:25:27.966] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:25:27.991] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:25:28.054] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:25:28.440] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:25:28.474] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:25:28.474] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:25:28.474] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:25:28.479] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:25:28.481] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:25:28.511] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:25:28.562] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:25:28.895] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:25:29.160] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:25:29.160] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:25:29.160] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:25:29.160] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:25:39.573] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-04 09:25:39.579] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:25:39.579] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:25:48.175] [info] Reloading...
+[2026-02-04 09:25:48.252] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:25:48.268] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:25:48.268: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:25:48.275] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:25:48.275] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:25:48.275] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:25:48.281] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:25:48.284] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:25:48.318] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:25:48.360] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:25:48.590] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:25:48.622] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:25:48.622] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:25:48.622] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:25:48.627] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:25:48.629] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:25:48.659] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:25:48.713] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:25:49.006] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:25:49.261] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:25:49.261] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:25:49.261] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:25:49.261] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:26:04.919] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-04 09:26:04.925] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:26:04.925] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:26:11.523] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-04 09:26:11.529] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:26:11.529] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:26:18.747] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:26:18.752] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:26:18.752] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:26:18.753] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:26:32.814] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:26:32.821] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:26:32.821] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:26:32.822] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:26:49.347] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:26:49.355] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:26:49.355] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:26:49.356] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:26:59.063] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:26:59.070] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:26:59.070] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:26:59.072] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:27:14.429] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:27:14.438] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:27:14.438] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:27:14.438] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:27:24.329] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:27:24.333] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:27:24.333] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:27:24.334] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:27:25.367] [info] Reloading...
+[2026-02-04 09:27:25.428] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:27:25.444] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:27:25.444: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:27:25.452] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:27:25.452] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:27:25.452] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:27:25.458] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:27:25.461] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:27:25.500] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:27:25.569] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:27:25.914] [info] Found device Logitech G305 at '/dev/input/event2'
+libinput error: event11 - stinkoDev rewired: client bug: event processing lagging behind by 331ms, your system is too slow
+[2026-02-04 09:27:25.953] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:27:25.953] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:27:25.953] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:27:25.958] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:27:25.961] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:27:26.001] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:27:26.070] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:27:26.412] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:27:26.669] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:27:26.669] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:27:26.669] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:27:26.669] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:28:11.835] [info] Reloading...
+[2026-02-04 09:28:11.888] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:28:11.904] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:28:11.905: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:28:11.912] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:28:11.913] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:28:11.913] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:28:11.918] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:11.921] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:11.956] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:28:12.030] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:28:12.339] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:28:12.386] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:28:12.386] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:28:12.386] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:28:12.391] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:12.393] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:12.439] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:28:12.478] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:28:12.740] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:28:12.996] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:28:12.996] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:28:12.996] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:28:12.996] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:28:17.964] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-04 09:28:17.970] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:28:17.970] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:28:24.420] [info] Reloading...
+[2026-02-04 09:28:24.487] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:28:24.503] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:28:24.503: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:28:24.510] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:28:24.510] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:28:24.510] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:28:24.516] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:24.518] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:24.547] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:28:24.600] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:28:24.923] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:28:24.972] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:28:24.972] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:28:24.972] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:28:24.977] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:24.980] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:25.018] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:28:25.076] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:28:25.342] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:28:25.602] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:28:25.602] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:28:25.602] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:28:25.602] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:28:31.152] [info] Reloading...
+[2026-02-04 09:28:31.233] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:28:31.250] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:28:31.250: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:28:31.260] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:28:31.261] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:28:31.261] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:28:31.267] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:31.269] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:31.314] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:28:31.375] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:28:31.725] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:28:31.769] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:28:31.769] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:28:31.769] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:28:31.774] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:31.776] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:31.813] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:28:31.871] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:28:32.187] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:28:32.439] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:28:32.439] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:28:32.439] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:28:32.439] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:28:33.185] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-04 09:28:33.192] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:28:33.192] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:28:37.497] [info] Reloading...
+[2026-02-04 09:28:37.544] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:28:37.561] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:28:37.561: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:28:37.569] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:28:37.569] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:28:37.569] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:28:37.575] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:37.577] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:37.607] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:28:37.655] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:28:37.987] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:28:38.029] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:28:38.029] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:28:38.029] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:28:38.035] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:38.036] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:28:38.072] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:28:38.131] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:28:38.449] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:28:38.705] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:28:38.705] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:28:38.705] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:28:38.705] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:28:41.761] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-04 09:28:41.768] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:28:41.768] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:29:41.545] [info] Bar configured (width: 1920, height: 32) for output: DP-2
+[2026-02-04 09:29:41.552] [warning] Requested height: 32 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:29:41.552] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:29:55.526] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:29:55.531] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:29:55.531] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:29:55.532] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:29:56.938] [info] Reloading...
+[2026-02-04 09:29:57.004] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:29:57.021] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:29:57.021: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:29:57.028] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:29:57.028] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:29:57.028] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:29:57.035] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:29:57.037] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:29:57.075] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:29:57.135] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:29:57.455] [info] Found device Logitech G305 at '/dev/input/event2'
+libinput error: event11 - stinkoDev rewired: client bug: event processing lagging behind by 327ms, your system is too slow
+[2026-02-04 09:29:57.492] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:29:57.492] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:29:57.492] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:29:57.497] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:29:57.500] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:29:57.532] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:29:57.582] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:29:57.900] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:29:58.170] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:29:58.170] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:29:58.170] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:29:58.170] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:30:38.242] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:30:38.252] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:30:38.252] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:30:38.252] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:30:39.576] [info] Reloading...
+[2026-02-04 09:30:39.673] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:30:39.690] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:30:39.690: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:30:39.698] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:30:39.699] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:30:39.699] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:30:39.705] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:30:39.707] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:30:39.735] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:30:39.797] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:30:40.062] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:30:40.103] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:30:40.104] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:30:40.104] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:30:40.109] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:30:40.111] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:30:40.147] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:30:40.192] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:30:40.477] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:30:40.755] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:30:40.755] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:30:40.755] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:30:40.755] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:30:47.457] [info] Reloading...
+[2026-02-04 09:30:47.510] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:30:47.526] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:30:47.526: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:30:47.531] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:30:47.531] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:30:47.531] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:30:47.537] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:30:47.540] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:30:47.566] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:30:47.617] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:30:47.974] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:30:48.010] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:30:48.010] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:30:48.010] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:30:48.015] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:30:48.017] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:30:48.044] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:30:48.098] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:30:48.410] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:30:48.671] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:30:48.671] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:30:48.671] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:30:48.671] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:30:54.579] [info] Reloading...
+[2026-02-04 09:30:54.652] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:30:54.669] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:30:54.669: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:30:54.673] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:30:54.673] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:30:54.673] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:30:54.680] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:30:54.682] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:30:54.723] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:30:54.784] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:30:55.023] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:30:55.064] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:30:55.064] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:30:55.064] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:30:55.070] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:30:55.072] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:30:55.122] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:30:55.195] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:30:55.580] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:30:55.838] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:30:55.838] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:30:55.838] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:30:55.838] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:31:10.974] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:31:10.980] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:31:10.980] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:31:10.981] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:31:44.464] [info] Reloading...
+[2026-02-04 09:31:44.525] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:31:44.541] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:31:44.542: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:31:44.547] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:31:44.547] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:31:44.547] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:31:44.554] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:31:44.556] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:31:44.600] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:31:44.658] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:31:44.951] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:31:44.992] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:31:44.993] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:31:44.993] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:31:44.999] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:31:45.001] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:31:45.036] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:31:45.080] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:31:45.355] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:31:45.622] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:31:45.622] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:31:45.622] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:31:45.622] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:32:08.251] [info] Reloading...
+[2026-02-04 09:32:08.312] [info] Using configuration file /home/rat/.config/waybar/config
+[2026-02-04 09:32:08.330] [info] Using CSS file /home/rat/.config/waybar/style.css
+
+(waybar:39357): Gtk-WARNING **: 09:32:08.330: Theme parsing error: style.css:94:11: Not using units is deprecated. Assuming 'px'.
+[2026-02-04 09:32:08.336] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:32:08.336] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:32:08.336] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:32:08.343] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:32:08.346] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:32:08.370] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:32:08.427] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:32:08.668] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:32:08.693] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:32:08.693] [warning] module hyprland/mode: Unknown module: hyprland/mode
+[2026-02-04 09:32:08.694] [warning] module hyprland/scratchpad: Unknown module: hyprland/scratchpad
+[2026-02-04 09:32:08.699] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:32:08.702] [error] media stopped unexpectedly, is it endless?
+[2026-02-04 09:32:08.729] [info] Found device stinkoDev rewired at '/dev/input/event11'
+[2026-02-04 09:32:08.777] [info] Found device SINO WEALTH Gaming KB  at '/dev/input/event6'
+[2026-02-04 09:32:09.046] [info] Found device Logitech G305 at '/dev/input/event2'
+[2026-02-04 09:32:09.316] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:32:09.316] [info] Bar configured (width: 1920, height: 34) for output: DP-2
+[2026-02-04 09:32:09.316] [warning] Requested height: 30 is less than the minimum height: 34 required by the modules
+[2026-02-04 09:32:09.316] [info] Bar configured (width: 1080, height: 34) for output: HDMI-A-1
+[2026-02-04 09:34:51.053] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:34:51.055] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:34:51.055] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:34:51.056] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:34:59.503] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:34:59.509] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-04 09:34:59.509] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-04 09:34:59.509] [info] Loading persistent workspaces from Hyprland workspace rules
+Gdk-Message: 09:35:04.705: Error flushing display: Broken pipe

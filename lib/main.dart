@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:to_do/app/app_theme.dart';
 import 'package:to_do/providers/nav_provider.dart';
+import 'package:to_do/services/to_do_service.dart';
 import 'app/app.dart';
 
-void main() {
+void main() async {
+  await TodoService.init();
   runApp(const MyApp());
 }
 

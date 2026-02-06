@@ -17,47 +17,42 @@ class _BottomNavigationState extends State<BottomNavigation> {
     return Consumer<NavProvider>(
       builder: (context, nav, child) {
         return Container(
-          child: Container(
-            decoration: BoxDecoration(
-              color:
-                  Theme.of(context).bottomNavigationBarTheme.backgroundColor ??
-                  Theme.of(context).colorScheme.surface,
-              borderRadius: const BorderRadius.only(
-                topRight: Radius.circular(50),
-                topLeft: Radius.circular(50),
+          decoration: BoxDecoration(
+            color:
+                Theme.of(context).bottomNavigationBarTheme.backgroundColor ??
+                Theme.of(context).colorScheme.surface,
+            borderRadius: const BorderRadius.only(
+              topRight: Radius.circular(50),
+              topLeft: Radius.circular(50),
+            ),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black12,
+                blurRadius: 10,
+                offset: const Offset(0, -4),
               ),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black12,
-                  blurRadius: 10,
-                  offset: const Offset(0, -4),
-                ),
-              ],
-            ),
-            child: NavigationBar(
-              backgroundColor: Colors.transparent,
-              selectedIndex: nav.selected,
-              onDestinationSelected: (int newSelection) {
-                final newIndex = newSelection;
-                Provider.of<NavProvider>(
-                  context,
-                  listen: false,
-                ).select(newIndex);
-                context.go(valueMap[newIndex]!);
-              },
+            ],
+          ),
+          child: NavigationBar(
+            backgroundColor: Colors.transparent,
+            selectedIndex: nav.selected,
+            onDestinationSelected: (int newSelection) {
+              final newIndex = newSelection;
+              Provider.of<NavProvider>(context, listen: false).select(newIndex);
+              context.go(valueMap[newIndex]!);
+            },
 
-              destinations: [
-                NavigationDestination(
-                  icon: Icon(Icons.settings),
-                  label: 'Settings',
-                ),
-                NavigationDestination(icon: Icon(Icons.notes), label: 'Notes'),
-                NavigationDestination(
-                  icon: Icon(Icons.create),
-                  label: 'Create',
-                ),
-              ],
-            ),
+            destinations: [
+              NavigationDestination(
+                icon: Icon(Icons.settings),
+                label: 'Settings',
+              ),
+              NavigationDestination(icon: Icon(Icons.notes), label: 'Notes'),
+              NavigationDestination(
+                icon: Icon(Icons.browse_gallery),
+                label: 'Stats',
+              ),
+            ],
           ),
         );
       },
