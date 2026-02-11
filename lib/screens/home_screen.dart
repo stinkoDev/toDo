@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:to_do/views/home_view.dart';
 import 'package:to_do/views/to_do_view.dart';
 import 'package:to_do/views/agenda_view.dart';
 import 'package:to_do/views/calendar_view.dart';
 import 'package:to_do/views/thougths_view.dart';
-import 'package:to_do/widgets/floating_action_button.dart';
+import 'package:to_do/widgets/create_floating_action_button.dart';
 import 'package:to_do/widgets/safe_scaffold.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -88,7 +89,13 @@ class _HomeScreenState extends State<HomeScreen> {
         onPageChanged: (index) => setState(() {
           _currentIndex = index;
         }),
-        children: [ThoughtsView(), ToDoView(), AgendaView(), CalendarView()],
+        children: [
+          ThoughtsView(),
+          ToDoView(),
+          AgendaView(),
+          CalendarView(),
+          HomeView(),
+        ],
       ),
       floatingActionButton: _getFloatingActionButton(_currentIndex),
     );

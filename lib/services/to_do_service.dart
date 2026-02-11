@@ -10,6 +10,28 @@ class TodoService {
     Hive.registerAdapter(ToDoItemAdapter());
     _todosBox = await Hive.openBox<ToDoItem>('todos');
     await seedData();
+    print("\n=== 🐝 HIVE DATA DUMP START 🐝 ===");
+    if (_todosBox!.isEmpty) {
+      print("Database is empty.");
+    } else {
+      for (var i = 0; i < _todosBox!.length; i++) {
+        final todo = _todosBox!.getAt(i);
+        print("Item #$i:");
+        print("  🔹 ID: ${todo?.id}");
+        print("  🔹 Title: ${todo?.title}");
+        print("  🔹 Description: ${todo?.description}");
+        print("  🔹 Priority: ${todo?.priority}");
+        print("  🔹 Completion: ${todo?.completion}");
+        print("  🔹 Created: ${todo?.dateCreated}");
+        print("  🔹 Finished: ${todo?.dateFinished}");
+        print("  🔹 DueDate: ${todo?.dueDate}");
+        print("  🔸 ReqDesc: ${todo?.reqDescription}");
+        print("  🔸 ReqDue: ${todo?.reqDueDate}");
+        print("  🔸 AllDay: ${todo?.allDay}");
+        print("-----------------------------------");
+      }
+    }
+    print("=== 🐝 HIVE DATA DUMP END 🐝 ===\n");
   }
 
   static List<ToDoItem> getAll() {
@@ -20,11 +42,20 @@ class TodoService {
     required String title,
     String? description,
     required String priority,
+    DateTime? dueDate,
+    bool reqDescription = false,
+    bool reqDueDate = false,
+    bool allDay = false,
   }) async {
     final newTodo = ToDoItem(
       title: title,
+      description: description,
       priority: priority,
       completion: false,
+      dueDate: dueDate ?? DateTime.now(),
+      reqDescription: reqDescription,
+      reqDueDate: reqDueDate,
+      allDay: allDay,
     );
     await _todosBox?.put(newTodo.id, newTodo);
   }

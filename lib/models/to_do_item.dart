@@ -30,7 +30,7 @@ class ToDoItem extends HiveObject {
   String priority;
 
   @HiveField(8)
-  bool dueDate;
+  DateTime? dueDate;
 
   @HiveField(9)
   bool reqDueDate;
@@ -47,7 +47,7 @@ class ToDoItem extends HiveObject {
     this.dateFinished,
     required this.completion,
     String? priority,
-    this.dueDate = false,
+    this.dueDate,
     this.reqDueDate = false,
     this.allDay = false,
   }) : id = id ?? const Uuid().v4(),
@@ -57,9 +57,13 @@ class ToDoItem extends HiveObject {
   ToDoItem copyWith({
     String? title,
     String? description,
+    bool? reqDescription,
     bool? completion,
     String? priority,
     DateTime? dateFinished,
+    DateTime? dueDate,
+    bool? reqDueDate,
+    bool? allDay,
   }) {
     return ToDoItem(
       id: id,
@@ -69,10 +73,10 @@ class ToDoItem extends HiveObject {
       priority: priority ?? this.priority,
       completion: completion ?? this.completion,
       dateFinished: dateFinished ?? this.dateFinished,
-      reqDescription: reqDescription,
-      dueDate: dueDate,
-      reqDueDate: reqDueDate,
-      allDay: allDay,
+      reqDescription: reqDescription ?? this.reqDescription,
+      dueDate: dueDate ?? this.dueDate,
+      reqDueDate: reqDueDate ?? this.reqDueDate,
+      allDay: allDay ?? this.allDay,
     );
   }
 

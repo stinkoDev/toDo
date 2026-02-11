@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 DateTime today() {
   return DateTime.now();
@@ -9,7 +10,13 @@ DateTime tenYear() {
 }
 
 String dateFormat(DateTime? inputDate) {
-  return inputDate.toString();
+  if (inputDate == null) return 'No date';
+  return DateFormat("dd/MM/yyyy").format(inputDate.toLocal());
+}
+
+String dateTimeFormat(DateTime? inputDate) {
+  if (inputDate == null) return 'No date';
+  return DateFormat("dd/MM/yyyy 'at' HH:mm").format(inputDate.toLocal());
 }
 
 String timeFormat(TimeOfDay? inputTime) {

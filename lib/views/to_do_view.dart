@@ -105,9 +105,15 @@ class _ToDoViewState extends State<ToDoView> {
             return ToDoWidget(
               id: todo.id,
               title: todo.title,
-              createdAt: todo.dateCreated,
+              description: todo.description ?? '',
+              reqDescription: todo.reqDescription,
+              dateCreated: todo.dateCreated,
+              dateFinished: todo.dateFinished ?? todo.dateCreated,
               completion: todo.completion,
               priority: todo.priority,
+              dueDate: todo.dueDate ?? todo.dateCreated,
+              allDay: todo.allDay,
+              reqDueDate: todo.reqDueDate,
               onToggle: (bool value) {
                 toggleCompletion(todo.id, value);
               },
@@ -119,9 +125,15 @@ class _ToDoViewState extends State<ToDoView> {
             return ToDoWidget(
               id: todo.id,
               title: todo.title,
-              createdAt: todo.dateCreated,
+              description: todo.description ?? '',
+              reqDescription: todo.reqDescription,
+              dateCreated: todo.dateCreated,
+              dateFinished: todo.dateFinished ?? todo.dateCreated,
               completion: todo.completion,
               priority: todo.priority,
+              dueDate: todo.dueDate ?? todo.dateCreated,
+              allDay: todo.allDay,
+              reqDueDate: todo.reqDueDate,
               onToggle: (bool value) {
                 toggleCompletion(todo.id, value);
               },

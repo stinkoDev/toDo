@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:to_do/services/to_do_service.dart';
 import 'package:to_do/models/to_do_item.dart';
+import 'package:to_do/utils/date.dart';
 
 class ToDoWidget extends StatefulWidget {
   final String id;
@@ -42,9 +42,6 @@ class ToDoWidget extends StatefulWidget {
 class _ToDoWidgetState extends State<ToDoWidget> {
   @override
   Widget build(BuildContext context) {
-    final formatter = DateFormat("dd/MM/yyyy 'at' HH:mm");
-    final formattedDate = formatter.format(widget.dateCreated.toLocal());
-
     return Card(
       child: ListTile(
         title: Text(
@@ -62,7 +59,7 @@ class _ToDoWidgetState extends State<ToDoWidget> {
           ),
         ),
         subtitle: Text(
-          'created on $formattedDate',
+          'due ${dateTimeFormat(widget.dueDate)}',
           style: TextStyle(color: Theme.of(context).disabledColor),
         ),
         leading: Checkbox(
@@ -162,9 +159,7 @@ class _ToDoWidgetState extends State<ToDoWidget> {
                                           ).textTheme.titleMedium,
                                         ),
                                         Text(
-                                          DateFormat(
-                                            "'Created on 'dd/MM/yyyy 'at' HH:mm",
-                                          ).format(widget.dateCreated),
+                                          'Created ${dateTimeFormat(widget.dateCreated)}',
                                         ),
                                       ],
                                     ),
@@ -231,7 +226,7 @@ class _SegmentButtonState extends State<_SegmentButton> {
   Future<void> _handleToggle() async {
     final newCompletion = !_localCompletion;
     await TodoService.toggle(widget.widget.id, newCompletion);
-    setState(() => _localCompletion = newCompletion); // Update local
+    setState(() => _localCompletion = newCompletion);
   }
 
   @override

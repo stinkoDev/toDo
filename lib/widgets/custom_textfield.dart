@@ -5,6 +5,7 @@ class CustomTextfield extends StatefulWidget {
   final bool? autoFocus;
   final int? maxLines;
   final TextEditingController? controller;
+  final ValueChanged<String>? onChanged;
 
   const CustomTextfield({
     super.key,
@@ -12,6 +13,7 @@ class CustomTextfield extends StatefulWidget {
     this.autoFocus,
     this.maxLines,
     this.controller,
+    this.onChanged,
   });
   @override
   State<CustomTextfield> createState() => _CustomTextfieldState();
@@ -40,6 +42,7 @@ class _CustomTextfieldState extends State<CustomTextfield> {
         autofocus: widget.autoFocus ?? false,
         minLines: 1,
         controller: _controller,
+        onChanged: widget.onChanged,
         decoration: InputDecoration(
           filled: true,
           hintText: widget.hint ?? '',

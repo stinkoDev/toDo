@@ -9,6 +9,35 @@ class HomeView extends StatefulWidget {
 class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
-    return ListView(children: [ListTile(title: Text('HomeView'))]);
+    return ListView(
+      children: [
+        ListTile(title: Text('HomeView')),
+        Card(child: Column(children: [Text('home 1'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+        Card(child: Column(children: [Text('home 2'), Text('test')])),
+      ],
+    );
   }
 }

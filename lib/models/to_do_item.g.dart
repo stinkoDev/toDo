@@ -25,7 +25,7 @@ class ToDoItemAdapter extends TypeAdapter<ToDoItem> {
       dateFinished: fields[5] as DateTime?,
       completion: fields[6] as bool,
       priority: fields[7] as String?,
-      dueDate: fields[8] as bool,
+      dueDate: fields[8] as DateTime?,
       reqDueDate: fields[9] as bool,
       allDay: fields[10] as bool,
     );
