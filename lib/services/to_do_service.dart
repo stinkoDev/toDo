@@ -10,7 +10,6 @@ class TodoService {
     Hive.registerAdapter(ToDoItemAdapter());
     _todosBox = await Hive.openBox<ToDoItem>('todos');
     await seedData();
-    print('✅ Hive ready! ${_todosBox?.length ?? 0} todos loaded');
   }
 
   static List<ToDoItem> getAll() {
@@ -34,7 +33,6 @@ class TodoService {
     final todo = _todosBox?.get(id);
     if (todo != null) {
       await _todosBox?.delete(id);
-      print('✅ Deleted todo $id');
       return todo;
     }
     return null;
@@ -42,7 +40,6 @@ class TodoService {
 
   static Future<void> restore(ToDoItem todo) async {
     await _todosBox?.put(todo.id, todo);
-    print('↺ Restored ${todo.title}');
   }
 
   static Future<void> toggle(String id, bool newValue) async {
@@ -50,7 +47,6 @@ class TodoService {
     if (todo != null) {
       todo.completion = newValue;
       await _todosBox?.put(id, todo);
-      print('✅ Toggled todo $id → $newValue');
     }
   }
 
@@ -67,9 +63,9 @@ class TodoService {
   static List<ToDoItem> sortByCategory(List<ToDoItem> todos, String sortType) {
     switch (sortType) {
       case 'Newest First':
-        return todos..sort((a, b) => b.createdAt.compareTo(a.createdAt));
+        return todos..sort((a, b) => b.dateCreated.compareTo(a.dateCreated));
       case 'Oldest First':
-        return todos..sort((a, b) => a.createdAt.compareTo(b.createdAt));
+        return todos..sort((a, b) => a.dateCreated.compareTo(b.dateCreated));
       case 'Highest Priority':
         return todos..sort(
           (a, b) =>
@@ -112,7 +108,6 @@ class TodoService {
       for (var todo in sampleTodos) {
         await _todosBox!.put(todo.id, todo);
       }
-      print('✅ Added 3 sample todos!');
     }
   }
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:to_do/app/app_theme.dart';
 import 'package:to_do/services/to_do_service.dart';
+import 'package:to_do/utils/date.dart';
 import 'package:to_do/widgets/custom_textfield.dart';
 
 class CreateFloatingActionButton extends StatefulWidget {
@@ -73,11 +74,12 @@ class _AlertPopupState extends State<_AlertPopup> {
 
   String _selectedPriority = 'normal';
   bool _addDescription = false;
-  bool _addDueDate = false;
+  bool _addDueDate = true;
 
   @override
   Widget build(BuildContext context) {
     final priorityColors = Theme.of(context).extension<PriorityColors>()!;
+
     return AlertDialog(
       content: SingleChildScrollView(
         child: Column(
@@ -129,6 +131,7 @@ class _AlertPopupState extends State<_AlertPopup> {
             ),
             CustomTextfield(
               hint: 'title',
+              autoFocus: true,
               controller: _titleTextFieldController,
             ),
             Padding(
@@ -148,6 +151,7 @@ class _AlertPopupState extends State<_AlertPopup> {
             ),
             _addDescription
                 ? CustomTextfield(
+                    maxLines: 7,
                     hint: 'description',
                     controller: _descriptionTextFieldController,
                   )
@@ -201,30 +205,79 @@ class _DateEntry extends StatefulWidget {
 }
 
 class _DateEntryState extends State<_DateEntry> {
+  DateTime? selectedDate = DateTime.now();
+  TimeOfDay selectedTime = TimeOfDay.now();
+  bool allDaySelected = true;
+
   @override
   Widget build(BuildContext context) {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
         OutlinedButton(
-          onPressed: () {},
+          onPressed: () async {
+            final DateTime? pickedDate = await showDatePicker(
+              context: context,
+              initialDate: selectedDate ?? today(),
+              firstDate: DateTime(2025),
+              lastDate: tenYear(),
+            );
+            setState(() {
+              selectedDate = pickedDate;
+            });
+          },
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Icon(Icons.calendar_today_outlined),
-              Text('date'),
+              Text(selectedDate != null ? dateFormat(selectedDate) : 'Today'),
               Icon(Icons.keyboard_arrow_down_outlined),
             ],
           ),
         ),
         OutlinedButton(
-          onPressed: () {},
+          onPressed: allDaySelected
+              ? null
+              : () async {
+                  final TimeOfDay? pickedTime = await showTimePicker(
+                    context: context,
+                    initialTime: selectedTime,
+                  );
+                  setState(() {
+                    selectedTime = pickedTime!;
+                  });
+                },
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Icon(Icons.alarm_outlined),
-              Text('time'),
+              Text(allDaySelected ? 'all day' : timeFormat(selectedTime)),
               Icon(Icons.keyboard_arrow_down_outlined),
+            ],
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Text(
+                'All day:',
+                style: TextStyle(
+                  color: allDaySelected
+                      ? null
+                      : Theme.of(context).disabledColor,
+                ),
+              ),
+              Switch(
+                value: allDaySelected,
+                onChanged: (bool value) {
+                  setState(() {
+                    allDaySelected = value;
+                  });
+                },
+              ),
             ],
           ),
         ),

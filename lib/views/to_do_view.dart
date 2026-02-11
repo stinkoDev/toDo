@@ -105,8 +105,9 @@ class _ToDoViewState extends State<ToDoView> {
             return ToDoWidget(
               id: todo.id,
               title: todo.title,
-              createdAt: todo.createdAt,
+              createdAt: todo.dateCreated,
               completion: todo.completion,
+              priority: todo.priority,
               onToggle: (bool value) {
                 toggleCompletion(todo.id, value);
               },
@@ -118,8 +119,9 @@ class _ToDoViewState extends State<ToDoView> {
             return ToDoWidget(
               id: todo.id,
               title: todo.title,
-              createdAt: todo.createdAt,
+              createdAt: todo.dateCreated,
               completion: todo.completion,
+              priority: todo.priority,
               onToggle: (bool value) {
                 toggleCompletion(todo.id, value);
               },

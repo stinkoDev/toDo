@@ -6,8 +6,15 @@ import 'package:to_do/models/to_do_item.dart';
 class ToDoWidget extends StatefulWidget {
   final String id;
   final String title;
-  final DateTime createdAt;
+  final String description;
+  final bool reqDescription;
+  final DateTime dateCreated;
+  final DateTime dateFinished;
   final bool completion;
+  final String priority;
+  final DateTime dueDate;
+  final bool reqDueDate;
+  final bool allDay;
   final ValueChanged<bool> onToggle;
   final VoidCallback onDelete;
 
@@ -15,8 +22,15 @@ class ToDoWidget extends StatefulWidget {
     super.key,
     required this.id,
     required this.title,
-    required this.createdAt,
+    required this.description,
+    required this.reqDescription,
+    required this.dateCreated,
+    required this.dateFinished,
     required this.completion,
+    required this.priority,
+    required this.dueDate,
+    required this.reqDueDate,
+    required this.allDay,
     required this.onToggle,
     required this.onDelete,
   });
@@ -29,7 +43,7 @@ class _ToDoWidgetState extends State<ToDoWidget> {
   @override
   Widget build(BuildContext context) {
     final formatter = DateFormat("dd/MM/yyyy 'at' HH:mm");
-    final formattedDate = formatter.format(widget.createdAt.toLocal());
+    final formattedDate = formatter.format(widget.dateCreated.toLocal());
 
     return Card(
       child: ListTile(
@@ -39,6 +53,9 @@ class _ToDoWidgetState extends State<ToDoWidget> {
             decoration: widget.completion
                 ? TextDecoration.lineThrough
                 : TextDecoration.none,
+            // color: widget.completion
+            //     ? Theme.of(context).disabledColor
+            //     : Theme.of(context).colorScheme.onSurface,
             color: widget.completion
                 ? Theme.of(context).disabledColor
                 : Theme.of(context).colorScheme.onSurface,
@@ -56,6 +73,21 @@ class _ToDoWidgetState extends State<ToDoWidget> {
             }
           },
         ),
+        trailing: switch (widget.priority) {
+          'high' => Icon(
+            Icons.warning_outlined,
+            color: widget.completion
+                ? Theme.of(context).disabledColor
+                : Colors.red,
+          ),
+          'medium' => Icon(
+            Icons.priority_high_outlined,
+            color: widget.completion
+                ? Theme.of(context).disabledColor
+                : Colors.orange,
+          ),
+          _ => null,
+        },
         onLongPress: () => widget.onToggle(!widget.completion),
         onTap: () {
           showModalBottomSheet(
@@ -124,7 +156,7 @@ class _ToDoWidgetState extends State<ToDoWidget> {
                                     child: Column(
                                       children: [
                                         Text(
-                                          'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.',
+                                          widget.description,
                                           style: Theme.of(
                                             context,
                                           ).textTheme.titleMedium,
@@ -132,7 +164,7 @@ class _ToDoWidgetState extends State<ToDoWidget> {
                                         Text(
                                           DateFormat(
                                             "'Created on 'dd/MM/yyyy 'at' HH:mm",
-                                          ).format(widget.createdAt),
+                                          ).format(widget.dateCreated),
                                         ),
                                       ],
                                     ),

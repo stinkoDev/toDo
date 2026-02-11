@@ -9,38 +9,74 @@ class ToDoItem extends HiveObject {
   final String id;
 
   @HiveField(1)
-  final String title;
+  String title;
 
   @HiveField(2)
-  final DateTime createdAt;
+  String? description;
 
   @HiveField(3)
-  bool completion;
+  bool reqDescription;
 
   @HiveField(4)
-  final String priority;
+  final DateTime dateCreated;
+
+  @HiveField(5)
+  DateTime? dateFinished;
+
+  @HiveField(6)
+  bool completion;
+
+  @HiveField(7)
+  String priority;
+
+  @HiveField(8)
+  bool dueDate;
+
+  @HiveField(9)
+  bool reqDueDate;
+
+  @HiveField(10)
+  bool allDay;
 
   ToDoItem({
     String? id,
     required this.title,
-    DateTime? createdAt,
+    this.description,
+    this.reqDescription = false,
+    DateTime? dateCreated,
+    this.dateFinished,
     required this.completion,
     String? priority,
+    this.dueDate = false,
+    this.reqDueDate = false,
+    this.allDay = false,
   }) : id = id ?? const Uuid().v4(),
-       createdAt = createdAt ?? DateTime.now(),
+       dateCreated = dateCreated ?? DateTime.now(),
        priority = priority ?? 'normal';
 
-  ToDoItem copyWith({bool? completion}) {
+  ToDoItem copyWith({
+    String? title,
+    String? description,
+    bool? completion,
+    String? priority,
+    DateTime? dateFinished,
+  }) {
     return ToDoItem(
       id: id,
-      title: title,
-      createdAt: createdAt,
-      priority: priority,
+      title: title ?? this.title,
+      description: description ?? this.description,
+      dateCreated: dateCreated,
+      priority: priority ?? this.priority,
       completion: completion ?? this.completion,
+      dateFinished: dateFinished ?? this.dateFinished,
+      reqDescription: reqDescription,
+      dueDate: dueDate,
+      reqDueDate: reqDueDate,
+      allDay: allDay,
     );
   }
 
   factory ToDoItem.create({required String title}) {
-    return ToDoItem(title: title, completion: false, priority: 'normal');
+    return ToDoItem(title: title, completion: false);
   }
 }

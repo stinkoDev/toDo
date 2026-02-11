@@ -59,8 +59,9 @@ class _HomeScreenState extends State<HomeScreen> {
           type: 'event',
         );
       default:
-        _currentTitle = 'error';
-        return CreateFloatingActionButton(title: '', prompt: '', type: '');
+        return Container();
+      // _currentTitle = 'error';
+      // return CreateFloatingActionButton(title: '', prompt: '', type: '');
     }
   }
 

@@ -37,7 +37,7 @@ class ToDoDropdown extends StatelessWidget {
             ),
           );
         },
-        child: Text('Sort'),
+        child: Text('Filter & Sort'),
       ),
     );
   }

@@ -19,26 +19,44 @@ class ToDoItemAdapter extends TypeAdapter<ToDoItem> {
     return ToDoItem(
       id: fields[0] as String?,
       title: fields[1] as String,
-      createdAt: fields[2] as DateTime?,
-      completion: fields[3] as bool,
-      priority: fields[4] as String?,
+      description: fields[2] as String?,
+      reqDescription: fields[3] as bool,
+      dateCreated: fields[4] as DateTime?,
+      dateFinished: fields[5] as DateTime?,
+      completion: fields[6] as bool,
+      priority: fields[7] as String?,
+      dueDate: fields[8] as bool,
+      reqDueDate: fields[9] as bool,
+      allDay: fields[10] as bool,
     );
   }
 
   @override
   void write(BinaryWriter writer, ToDoItem obj) {
     writer
-      ..writeByte(5)
+      ..writeByte(11)
       ..writeByte(0)
       ..write(obj.id)
       ..writeByte(1)
       ..write(obj.title)
       ..writeByte(2)
-      ..write(obj.createdAt)
+      ..write(obj.description)
       ..writeByte(3)
-      ..write(obj.completion)
+      ..write(obj.reqDescription)
       ..writeByte(4)
-      ..write(obj.priority);
+      ..write(obj.dateCreated)
+      ..writeByte(5)
+      ..write(obj.dateFinished)
+      ..writeByte(6)
+      ..write(obj.completion)
+      ..writeByte(7)
+      ..write(obj.priority)
+      ..writeByte(8)
+      ..write(obj.dueDate)
+      ..writeByte(9)
+      ..write(obj.reqDueDate)
+      ..writeByte(10)
+      ..write(obj.allDay);
   }
 
   @override
