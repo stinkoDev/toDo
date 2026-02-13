@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:to_do/widgets/custom_divider.dart';
-import 'package:to_do/widgets/to_do_dropdown.dart';
-import 'package:to_do/widgets/to_do_widget.dart';
+import 'package:to_do/widgets/todo/to_do_dropdown.dart';
+import 'package:to_do/widgets/todo/to_do_widget.dart';
 import 'package:to_do/models/to_do_item.dart';
 import 'package:to_do/services/to_do_service.dart';
 

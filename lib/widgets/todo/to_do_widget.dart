@@ -50,18 +50,24 @@ class _ToDoWidgetState extends State<ToDoWidget> {
             decoration: widget.completion
                 ? TextDecoration.lineThrough
                 : TextDecoration.none,
-            // color: widget.completion
-            //     ? Theme.of(context).disabledColor
-            //     : Theme.of(context).colorScheme.onSurface,
             color: widget.completion
                 ? Theme.of(context).disabledColor
                 : Theme.of(context).colorScheme.onSurface,
           ),
         ),
-        subtitle: Text(
-          'due ${dateTimeFormat(widget.dueDate)}',
-          style: TextStyle(color: Theme.of(context).disabledColor),
-        ),
+        subtitle: widget.completion
+            ? null
+            : widget.reqDueDate
+            ? (widget.allDay
+                  ? Text(
+                      'due ${dateFormat(widget.dueDate)}',
+                      style: TextStyle(color: Theme.of(context).disabledColor),
+                    )
+                  : Text(
+                      'due ${dateTimeFormat(widget.dueDate)}',
+                      style: TextStyle(color: Theme.of(context).disabledColor),
+                    ))
+            : null,
         leading: Checkbox(
           value: widget.completion,
           onChanged: (bool? value) {

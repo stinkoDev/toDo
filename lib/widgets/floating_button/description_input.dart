@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:to_do/widgets/custom_textfield.dart';
+import 'package:to_do/widgets/floating_button/custom_textfield.dart';
 
 class DescriptionInput extends StatefulWidget {
   final Function(String?) onDescriptionChanged;

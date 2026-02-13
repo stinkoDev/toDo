@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:to_do/widgets/create_dialog.dart';
+import 'package:to_do/widgets/floating_button/create_dialog.dart';
 
 class CreateFloatingActionButton extends StatelessWidget {
   final String prompt;

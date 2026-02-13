@@ -4,7 +4,7 @@ import 'package:to_do/views/to_do_view.dart';
 import 'package:to_do/views/agenda_view.dart';
 import 'package:to_do/views/calendar_view.dart';
 import 'package:to_do/views/thougths_view.dart';
-import 'package:to_do/widgets/create_floating_action_button.dart';
+import 'package:to_do/widgets/floating_button/create_floating_action_button.dart';
 import 'package:to_do/widgets/safe_scaffold.dart';
 
 class HomeScreen extends StatefulWidget {

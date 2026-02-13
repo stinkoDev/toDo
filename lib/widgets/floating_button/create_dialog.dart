@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:to_do/services/to_do_service.dart';
 import 'package:to_do/utils/date.dart';
-import 'package:to_do/widgets/custom_textfield.dart';
-import 'package:to_do/widgets/priority_selector.dart';
-import 'package:to_do/widgets/description_input.dart';
-import 'package:to_do/widgets/date_picker_section.dart';
+import 'package:to_do/widgets/floating_button/custom_textfield.dart';
+import 'package:to_do/widgets/floating_button/priority_selector.dart';
+import 'package:to_do/widgets/floating_button/description_input.dart';
+import 'package:to_do/widgets/floating_button/date_picker_section.dart';
 
 class CreateDialog extends StatefulWidget {
   final String title;
