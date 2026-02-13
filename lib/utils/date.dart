@@ -9,10 +9,10 @@ DateTime tenYear() {
   return DateTime(today().year + 10);
 }
 
-bool lateDueDate(DateTime? dueDate) {
-  if (dueDate == null) return false;
-  if (today() > dueDate) {}
-  ;
+bool lateDueDate(DateTime? inputDate) {
+  if (inputDate == null) return false;
+  final dueDate = inputDate.toLocal();
+  return today().isAfter(dueDate);
 }
 
 String dateFormat(DateTime? inputDate) {

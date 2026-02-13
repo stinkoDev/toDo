@@ -60,12 +60,26 @@ class _ToDoWidgetState extends State<ToDoWidget> {
             : widget.reqDueDate
             ? (widget.allDay
                   ? Text(
-                      'due ${dateFormat(widget.dueDate)}',
-                      style: TextStyle(color: Theme.of(context).disabledColor),
+                      lateDueDate(widget.dueDate)
+                          ? 'Late! Due ${dateFormat(widget.dueDate)}'
+                          : 'due ${dateFormat(widget.dueDate)}',
+                      style: lateDueDate(widget.dueDate)
+                          ? TextStyle(
+                              color: Colors.red,
+                              fontWeight: FontWeight.w700,
+                            )
+                          : TextStyle(color: Theme.of(context).disabledColor),
                     )
                   : Text(
-                      'due ${dateTimeFormat(widget.dueDate)}',
-                      style: TextStyle(color: Theme.of(context).disabledColor),
+                      lateDueDate(widget.dueDate)
+                          ? 'Late! Due ${dateTimeFormat(widget.dueDate)}'
+                          : 'due ${dateTimeFormat(widget.dueDate)}',
+                      style: lateDueDate(widget.dueDate)
+                          ? TextStyle(
+                              color: Colors.red,
+                              fontWeight: FontWeight.w700,
+                            )
+                          : TextStyle(color: Theme.of(context).disabledColor),
                     ))
             : null,
         leading: Checkbox(

@@ -3,7 +3,7 @@ import 'package:to_do/views/home_view.dart';
 import 'package:to_do/views/to_do_view.dart';
 import 'package:to_do/views/agenda_view.dart';
 import 'package:to_do/views/calendar_view.dart';
-import 'package:to_do/views/thougths_view.dart';
+import 'package:to_do/views/note_view.dart';
 import 'package:to_do/widgets/floating_button/create_floating_action_button.dart';
 import 'package:to_do/widgets/safe_scaffold.dart';
 
@@ -15,8 +15,11 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   late PageController _homeScreenController;
-  int _currentIndex = 1;
-  String _currentTitle = 'To Do...';
+  //change this one to change the starting page
+  int _currentIndex = 2;
+  // String _currentTitle = 'Home...';
+  // TODO Remove this line and the one below it
+  String _currentTitle = 'Notes...';
 
   @override
   void initState() {
@@ -32,27 +35,34 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _getFloatingActionButton(int index) {
     switch (index) {
       case 0:
-        _currentTitle = 'Thoughts...';
-        return CreateFloatingActionButton(
-          title: 'Create Thought',
-          prompt: 'Thought',
-          type: 'thought',
-        );
-      case 1:
         _currentTitle = 'To Do...';
         return CreateFloatingActionButton(
           title: 'Create Task',
           prompt: 'To Do',
           type: 'todo',
         );
+      case 1:
+        _currentTitle = 'Home...';
+        return CreateFloatingActionButton(
+          title: 'Home',
+          prompt: 'Home',
+          type: 'home',
+        );
       case 2:
+        _currentTitle = 'Notes...';
+        return CreateFloatingActionButton(
+          title: 'Create Note',
+          prompt: 'note',
+          type: 'note',
+        );
+      case 3:
         _currentTitle = 'Agenda...';
         return CreateFloatingActionButton(
           title: 'Create Event',
           prompt: 'Event',
           type: 'event',
         );
-      case 3:
+      case 4:
         _currentTitle = 'Calendar...';
         return CreateFloatingActionButton(
           title: 'Add Event',
@@ -90,11 +100,11 @@ class _HomeScreenState extends State<HomeScreen> {
           _currentIndex = index;
         }),
         children: [
-          ThoughtsView(),
           ToDoView(),
+          HomeView(),
+          NoteView(),
           AgendaView(),
           CalendarView(),
-          HomeView(),
         ],
       ),
       floatingActionButton: _getFloatingActionButton(_currentIndex),
