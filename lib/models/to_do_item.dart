@@ -74,7 +74,7 @@ class ToDoItem extends HiveObject {
       completion: completion ?? this.completion,
       dateFinished: dateFinished ?? this.dateFinished,
       reqDescription: reqDescription ?? this.reqDescription,
-      dueDate: dueDate ?? this.dueDate,
+      dueDate: dueDate,
       reqDueDate: reqDueDate ?? this.reqDueDate,
       allDay: allDay ?? this.allDay,
     );
